@@ -1,0 +1,46 @@
+﻿<rss version="2.0">
+<channel>
+<!--Prólogo-->
+<title>InfoGo</title>
+<link>https://alejandroa007.github.io/InfoGo/</link>
+<description> Saber sobre mi y mis estudios academicos </description>
+<category>trabajo/estudios/informacion</category>
+<copyright>1º ASIR - LMSGI</copyright>
+<image>
+<url>
+https://alejandroa007.github.io/InfoGo/
+</url>
+<title>InfoGo</title>
+<link>https://alejandroa007.github.io/InfoGo/</link>
+<width>30</width>
+<height>30</height>
+<language>es-es</language>
+<lastBuildDate>Sun, 05 Dec 2021 12:15:00 +0100</lastBuildDate>
+<webMaster>alejandroaacr2004@gmail.com</webMaster>
+<!-- Noticias del canal -->
+<item>
+<title>Modulos</title>
+<description>
+Aqui podras verlos estuios que he aprendido
+</description>
+<link>
+https://alejandroa007.github.io/InfoGo/Paginas/Modulos
+</link>
+<author>alejandroaacr2004@gmail.com</author>
+<category>modulos</category>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+<item>
+<title>Curriculum</title>
+<description>
+En este artículo encontrará información sobre mi y mis oportunidades
+</description>
+<link>
+https://alejandroa007.github.io/InfoGo/Paginas/curriculum
+</link>
+<author>alejandroaacr2004@gmail.com</author>
+<category>curriculum</category>
+<pubDate>Sun, 05 Dec 2021 12:25:00 +0100</pubDate>
+</item>
+</channel>
+</rss>
