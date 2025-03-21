@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+header {
+    background-image: url(../Recursos/imagenes/images_LE_upscale_balanced_x4.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.menu .logo {
+    font-weight: bold;
+    font-size: 25px;
+    color: aqua;
+
+}
+.menu .navbar ul {
+    list-style: none;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.buscador-input-box{
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    box-shadow: 0 1px 5px 3px black rgba(0, 0, 0, 12);
+}
+.buscador-input-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 55%;
+    padding: 0 60px 0 20px;
+}S
+.Icono{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+}
+.modulos{
+    max-height: 200px;
+    opacity: 0;
+    pointer-events: none;
+    padding: 0;
+    overflow-y: auto;
+}
+.modulos li{
+    list-style: none;
+    width: 100px; 
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: none;
+}
