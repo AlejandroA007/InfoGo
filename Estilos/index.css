@@ -24,10 +24,9 @@ body {
 }
 
 .RSS_Atom {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     height: 190vh;
     display: flex;
     justify-content: center;
@@ -35,6 +34,9 @@ body {
     z-index: 1;
 }
 
+a{
+color: transparent;    
+}
 .RSS{
     width: 50px;
 }
@@ -65,6 +67,42 @@ body {
     bottom: 250px;
     opacity: 0;
     transition: ease-in-out .5;
+}
+.button{
+    position: relative;
+    padding-top: 25px;
+    
+}
+button{
+    border: 0;
+    background-image:  linear-gradient(
+ 150deg,
+ #9500ff,
+ #09f,
+ #0df,
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+    justify-content: center;
+}
+button span {
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button:hover span{
+    background: none;
+    color: black;
+}
+button:active{
+    transform: scale(0.9);
 }
 
 #logo {
