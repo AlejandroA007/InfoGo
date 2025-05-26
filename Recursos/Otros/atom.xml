@@ -1,8 +1,8 @@
-﻿<feed xml:lang="es" xml:base="https://alejandroa007.github.io/InfoGo/">
+﻿<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://alejandroa007.github.io/InfoGo/">
 <id>https://alejandroa007.github.io/InfoGo/</id>
 <title>InfoGo</title>
 <updated>2025-03-21T19:06:00+01:00</updated>
-<link rel="alternate" href="https://alejandroa007.github.io/InfoGo/Recursos/Otros/atom.xml"/>
+<link rel="alternate" href="https://alejandroa007.github.io/InfoGo/atom.xml"/>
 <author>
 <name>Alejandro Aceña Ramirez</name>
 <email>alejandroaacr2004@gmail.com</email>
